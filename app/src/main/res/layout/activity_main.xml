@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:orientation="vertical"
+               >
+
+       <TextView
+           android:layout_weight="1"
+         android:id="@+id/tv1"
+         android:background="#00ff00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:background="#fff000"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/tv2"/>
+    <Button
+        android:background="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/getJson_button"
+        android:text="获取数据格式"
+        android:layout_weight="0.1"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prase_button"
+        android:text="解析数据"
+        android:layout_weight="0.1"
+
+        />
+
+
+
+</LinearLayout>
